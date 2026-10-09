@@ -8,6 +8,17 @@
 
 > ⭐️ 如果觉得本项目对你有帮助，请右上角点个 Star！
 
+## FnDepot 外部源
+
+本 fork 额外维护一份符合 [FnDepot](https://github.com/EWEDLCM/FnDepot) 外部源 V2 规范的 `fnpack.json`（位于仓库根目录），
+由 `scripts/ci/generate-fnpack.py` 自动生成（`.github/workflows/update-fnpack.yml` 手动/定时触发）。
+
+在 FnDepot 客户端（> 0.0.7）中添加源地址即可使用：
+
+```text
+https://github.com/shenbourne/fnos-apps
+```
+
 ## 应用一览
 
 > 💡 推荐先安装 **fnOS Apps** 应用中心，可一键管理以下所有应用的安装与更新。
