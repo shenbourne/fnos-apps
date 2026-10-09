@@ -1,0 +1,52 @@
+name: Sync upstream & update fnpack.json
+
+on:
+  # GitHub 默认禁用 fork 上的 schedule 触发；转为独立仓库后定时任务自动生效
+  schedule:
+    - cron: '47 8 * * *'   # 每天 08:47 UTC，晚于上游构建窗口
+  workflow_dispatch:
+    inputs:
+      upstream_branch:
+        description: '上游分支'
+        required: true
+        default: 'main'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # merge 需要完整历史
+
+      - name: Merge upstream
+        env:
+          UPSTREAM_BRANCH: ${{ github.event.inputs.upstream_branch || 'main' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/conversun/fnos-apps.git
+          git fetch upstream "$UPSTREAM_BRANCH"
+          # -X ours：仅当上游与本 fork 改动同一处时保留本 fork 的内容。
+          # 冲突只可能发生在 README.md（本 fork 加了 FnDepot 一节），
+          # 其余文件（fnpack.json、scripts/ci/generate-fnpack.py 等）为 fork 独有，不会冲突。
+          git merge "upstream/$UPSTREAM_BRANCH" -X ours --no-edit \
+            -m "chore: sync upstream conversun/fnos-apps ${UPSTREAM_BRANCH} [skip ci]"
+
+      - name: Regenerate fnpack.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/ci/generate-fnpack.py
+
+      - name: Commit and push if changed
+        run: |
+          git add fnpack.json
+          if git diff --cached --quiet; then
+            echo "nothing new to commit"
+          else
+            git commit -m "chore: update fnpack.json for FnDepot [skip ci]"
+          fi
+          git push
