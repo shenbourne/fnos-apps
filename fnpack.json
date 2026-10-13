@@ -269,6 +269,21 @@
       "is_docker": false,
       "service_port": "5246",
       "releases": {
+        "3.65.0": {
+          "updated_at": "2026-10-13T08:07:24Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/alist/v3.65.0/alist_3.65.0_arm.fpk",
+              "size": 42132222,
+              "sha256": "53257b12374ccf2c2bed745e793d3a7bc98f9e7f92fa9191a0d4f55201cebeb8"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/alist/v3.65.0/alist_3.65.0_x86.fpk",
+              "size": 44642491,
+              "sha256": "231ca95576a6040b4112e57c05540a5230c7a9c23d2ca77ee09cbf7ce2a15ec9"
+            }
+          }
+        },
         "3.64.0": {
           "updated_at": "2026-09-03T08:07:46Z",
           "packages": {
@@ -298,21 +313,6 @@
               "sha256": "e7f4f508ad3ea95b7888e0f6f5e802af5b7d70d442d7b5e0144659191b7d3f4d"
             }
           }
-        },
-        "3.62.0-r2": {
-          "updated_at": "2026-07-25T17:24:02Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/alist/v3.62.0-r2/alist_3.62.0-r2_arm.fpk",
-              "size": 41899549,
-              "sha256": "d86d2c7f20b218f589ac339d535e4ab78634c994873beab9090b2841b2dfb96e"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/alist/v3.62.0-r2/alist_3.62.0-r2_x86.fpk",
-              "size": 44419009,
-              "sha256": "adba522f25858f26301d839b62d51eb8a99b4570324117f41c657a04ebc26c90"
-            }
-          }
         }
       },
       "readme_url": "./apps/alist/README.md"
@@ -337,6 +337,21 @@
       "is_docker": true,
       "service_port": "7789",
       "releases": {
+        "3.2.49": {
+          "updated_at": "2026-10-13T08:07:20Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/ani-rss/v3.2.49/ani-rss_3.2.49_arm.fpk",
+              "size": 123556,
+              "sha256": "6125821e3e7a6bdda218c13b8e8b17c2433ef9e12d1310be3d234bd4eee93d53"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/ani-rss/v3.2.49/ani-rss_3.2.49_x86.fpk",
+              "size": 123555,
+              "sha256": "178c4f1d3f786d872ed6f3189f10c1fa4549a85e4a5d4e3f973cf9e3fbc4e116"
+            }
+          }
+        },
         "3.2.47": {
           "updated_at": "2026-10-12T08:16:25Z",
           "packages": {
@@ -364,21 +379,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/ani-rss/v3.2.46/ani-rss_3.2.46_x86.fpk",
               "size": 123556,
               "sha256": "2ac9f9311b8c2c57493ab8833f5aeefe66eec80dca5cfcd8407c19132a58e2a3"
-            }
-          }
-        },
-        "3.2.44": {
-          "updated_at": "2026-10-08T08:04:55Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/ani-rss/v3.2.44/ani-rss_3.2.44_arm.fpk",
-              "size": 123563,
-              "sha256": "cd34608373f889a7c9f3202cd2d21e9eaf126c3b60fed908d32b92867a5a5aa7"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/ani-rss/v3.2.44/ani-rss_3.2.44_x86.fpk",
-              "size": 123556,
-              "sha256": "e97ca368b936ba27d1e8a8b29a9f34451ce6a14bcfc5efa9ee1e008598b31574"
             }
           }
         }
@@ -511,6 +511,21 @@
       "is_docker": true,
       "service_port": "6800",
       "releases": {
+        "3.0.1": {
+          "updated_at": "2026-10-13T08:07:22Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/aria2-next/v3.0.1/aria2-next_3.0.1_arm.fpk",
+              "size": 66401,
+              "sha256": "0eb9a3b32c3d73ad7268093713cfda3ba4bf697c5c7a68441757e8fc08b64e3f"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/aria2-next/v3.0.1/aria2-next_3.0.1_x86.fpk",
+              "size": 66384,
+              "sha256": "e525727d3ac14844bb33e153d7525c614d39905c906e801021f6297383dd0904"
+            }
+          }
+        },
         "2.8.6": {
           "updated_at": "2026-10-05T08:10:45Z",
           "packages": {
@@ -538,21 +553,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/aria2-next/v2.8.3/aria2-next_2.8.3_x86.fpk",
               "size": 66371,
               "sha256": "4c93b67106a74a1535012ccc9625fbb9c47bae307bed2c19e9cad9d01efd9149"
-            }
-          }
-        },
-        "2.8.2": {
-          "updated_at": "2026-09-24T08:02:33Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/aria2-next/v2.8.2/aria2-next_2.8.2_arm.fpk",
-              "size": 66864,
-              "sha256": "ef8ad53a45cb3e4ba4ada0db56651ba0b59ca88f71865669bee946423fe683c9"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/aria2-next/v2.8.2/aria2-next_2.8.2_x86.fpk",
-              "size": 66856,
-              "sha256": "aa88527d7f141ba91d0af5fcc4e59f0471da244fe7ba3edc7e3d93b6954a5957"
             }
           }
         }
@@ -1305,6 +1305,21 @@
       "is_docker": false,
       "service_port": "0",
       "releases": {
+        "1.5.0": {
+          "updated_at": "2026-10-13T08:07:24Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/clash-for-fnos/v1.5.0/clash-for-fnos_1.5.0_arm.fpk",
+              "size": 41770565,
+              "sha256": "d321be3e88fac8a168c42bce3ad5203398e315ca7aa02744b8e1ca079d9d2f01"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/clash-for-fnos/v1.5.0/clash-for-fnos_1.5.0_x86.fpk",
+              "size": 44953561,
+              "sha256": "b2e26b3d70451bc3df7fd88bb36d079e9703f4f2bf01060852f4dca7b9e2e60a"
+            }
+          }
+        },
         "1.4.0": {
           "updated_at": "2026-10-12T08:16:35Z",
           "packages": {
@@ -1332,21 +1347,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/clash-for-fnos/v1.3.15/clash-for-fnos_1.3.15_x86.fpk",
               "size": 44509321,
               "sha256": "a7bf67bd2b01c26ca3a20cff39fa56c504581ebf5f5a21d0e21a3296f99caadf"
-            }
-          }
-        },
-        "1.3.0": {
-          "updated_at": "2026-10-08T08:04:53Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/clash-for-fnos/v1.3.0/clash-for-fnos_1.3.0_arm.fpk",
-              "size": 41241978,
-              "sha256": "5a79529bbcdc4c37ff9a5c3fe9fbb39b0476484fbde1347c58892e3d3d318350"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/clash-for-fnos/v1.3.0/clash-for-fnos_1.3.0_x86.fpk",
-              "size": 44370534,
-              "sha256": "62377141154c6afc3b5158a640a344c3a6b498d59e8b20cd73f9afe40bbe1a7d"
             }
           }
         }
@@ -2924,6 +2924,21 @@
       "is_docker": false,
       "service_port": "3005",
       "releases": {
+        "16.0.6": {
+          "updated_at": "2026-10-13T08:07:32Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/forgejo/v16.0.6/forgejo_16.0.6_arm.fpk",
+              "size": 44471817,
+              "sha256": "31ee8b2c348f819d6c54888529ec5a7915da449cd73b1cd2e9ba3cba160e638e"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/forgejo/v16.0.6/forgejo_16.0.6_x86.fpk",
+              "size": 48221653,
+              "sha256": "3226225cebcb90824b4ec6060587d9e65c6f36edfe26fbb7ccef7e0f685e9099"
+            }
+          }
+        },
         "16.0.5": {
           "updated_at": "2026-09-18T08:02:45Z",
           "packages": {
@@ -2951,21 +2966,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/forgejo/v16.0.4/forgejo_16.0.4_x86.fpk",
               "size": 48155172,
               "sha256": "b57e14050ac215c016195dc8eebde7b8043031604766520c930e8bda89de45d3"
-            }
-          }
-        },
-        "16.0.3": {
-          "updated_at": "2026-08-21T08:11:21Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/forgejo/v16.0.3/forgejo_16.0.3_arm.fpk",
-              "size": 44154128,
-              "sha256": "df5cd403e7b56c3c40c187a64c668633e52f5685637c8795504ba17dd52e5231"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/forgejo/v16.0.3/forgejo_16.0.3_x86.fpk",
-              "size": 47870158,
-              "sha256": "39805e6e2101fcb7cf9402ee5d4cacfca4552f15b1203937d32e91ecdbf9e8b6"
             }
           }
         }
@@ -3877,6 +3877,21 @@
       "is_docker": false,
       "service_port": "9117",
       "releases": {
+        "0.24.2830": {
+          "updated_at": "2026-10-13T08:07:38Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/jackett/v0.24.2830/jackett_0.24.2830_arm.fpk",
+              "size": 48657018,
+              "sha256": "7261fe3939bb4c87800fa0c071832ac7f1e033a3b6fe45630fb17bf86418e48f"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/jackett/v0.24.2830/jackett_0.24.2830_x86.fpk",
+              "size": 50712482,
+              "sha256": "db63d5bcb946d593cf214bc2f6b35467a3e710d370953b047d6f320a81ec469a"
+            }
+          }
+        },
         "0.24.2826": {
           "updated_at": "2026-10-12T08:16:48Z",
           "packages": {
@@ -3904,21 +3919,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/jackett/v0.24.2816/jackett_0.24.2816_x86.fpk",
               "size": 50712488,
               "sha256": "8facf08390cf732da91b64eba6e5ed18c85c2a07fec7aaecbe2253ecd01ead6b"
-            }
-          }
-        },
-        "0.24.2813": {
-          "updated_at": "2026-10-10T08:02:38Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/jackett/v0.24.2813/jackett_0.24.2813_arm.fpk",
-              "size": 48660323,
-              "sha256": "689755589f9a8afd33cb8010b077e2d951f0e45f86446ddf7124f48bcee6be9f"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/jackett/v0.24.2813/jackett_0.24.2813_x86.fpk",
-              "size": 50711638,
-              "sha256": "3eddaf2b7965a243b1cfa84053ae4b5cd0145d82385ff984fde5ae1ee587e90c"
             }
           }
         }
@@ -5851,6 +5851,21 @@
       "is_docker": true,
       "service_port": "3000",
       "releases": {
+        "3.1.5": {
+          "updated_at": "2026-10-13T08:07:25Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/moviepilot/v3.1.5/moviepilot_3.1.5_arm.fpk",
+              "size": 62429,
+              "sha256": "ad8436919f552165aebf4cc50d37957ea46ed495cef3f2223d37fc934ccc2c47"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/moviepilot/v3.1.5/moviepilot_3.1.5_x86.fpk",
+              "size": 62429,
+              "sha256": "8e10892d6b901a96614abcbb1dbe7eb57d5f7848b46dd750a40f7a458bc34243"
+            }
+          }
+        },
         "3.1.4": {
           "updated_at": "2026-10-11T08:02:30Z",
           "packages": {
@@ -5878,21 +5893,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/moviepilot/v3.1.3/moviepilot_3.1.3_x86.fpk",
               "size": 62428,
               "sha256": "b5a9e2e6b9e8b6dbb716898ffb2f59a234088dab005d775a64e4227572d6953e"
-            }
-          }
-        },
-        "3.1.2-1": {
-          "updated_at": "2026-10-08T08:04:56Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/moviepilot/v3.1.2-1/moviepilot_3.1.2-1_arm.fpk",
-              "size": 62429,
-              "sha256": "4648eae16a70171520da1a4bd3a7aa962bd6380372477ea7b8364e721f07ff55"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/moviepilot/v3.1.2-1/moviepilot_3.1.2-1_x86.fpk",
-              "size": 62436,
-              "sha256": "0d0f2882f16c55ce0828a9b9f4dcb2361714202e74eb5c4d7d2cf41e98bf180c"
             }
           }
         }
@@ -5987,6 +5987,21 @@
       "is_docker": true,
       "service_port": "5678",
       "releases": {
+        "2.43.4": {
+          "updated_at": "2026-10-13T08:07:26Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/n8n/v2.43.4/n8n_2.43.4_arm.fpk",
+              "size": 86143,
+              "sha256": "09e8d395fa4bcf7dff71c87ac114c8b31ab0f833b7182e156656e4f4c8e52b11"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/n8n/v2.43.4/n8n_2.43.4_x86.fpk",
+              "size": 86148,
+              "sha256": "511138be21c8c240ab85fcc0e43de4f6b4299167f777471c6e05ce775ae63519"
+            }
+          }
+        },
         "2.42.7": {
           "updated_at": "2026-10-12T08:16:30Z",
           "packages": {
@@ -6014,21 +6029,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/n8n/v2.42.6/n8n_2.42.6_x86.fpk",
               "size": 86153,
               "sha256": "644a33ff020c96373a1b9975092f9ba9e67187c528f2d8b21adb938c231e3492"
-            }
-          }
-        },
-        "2.42.5": {
-          "updated_at": "2026-10-08T08:04:55Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/n8n/v2.42.5/n8n_2.42.5_arm.fpk",
-              "size": 86159,
-              "sha256": "e11e955ca4d8cb50c125553dc25f20db045f20e60b35d67f461b2ba97e36d862"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/n8n/v2.42.5/n8n_2.42.5_x86.fpk",
-              "size": 86159,
-              "sha256": "7ba958b50cbf8d4d382f7af4fc92340dc3217f643294ef5ba13d7403c096b86d"
             }
           }
         }
@@ -6763,6 +6763,21 @@
       "is_docker": false,
       "service_port": "2586",
       "releases": {
+        "2.30.0": {
+          "updated_at": "2026-10-13T08:07:30Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/ntfy/v2.30.0/ntfy_2.30.0_arm.fpk",
+              "size": 30644651,
+              "sha256": "8828998366a73e910cc9ccce2b4030eb99034255f6c8007919fc3fc1299d54eb"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/ntfy/v2.30.0/ntfy_2.30.0_x86.fpk",
+              "size": 32129156,
+              "sha256": "4e0c0566dc987e40c5d81f063085992ede825632218868e3951183e8006b6cb4"
+            }
+          }
+        },
         "2.29.0": {
           "updated_at": "2026-10-08T08:05:07Z",
           "packages": {
@@ -6790,21 +6805,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/ntfy/v2.28.0/ntfy_2.28.0_x86.fpk",
               "size": 31485694,
               "sha256": "084a01a6661cfc7297d94947eb300a8006c5074b1b938e6b641f2007418c9853"
-            }
-          }
-        },
-        "2.27.0-r3": {
-          "updated_at": "2026-08-17T08:46:27Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/ntfy/v2.27.0-r3/ntfy_2.27.0-r3_arm.fpk",
-              "size": 29922717,
-              "sha256": "11bdf8ff4cd697e6712385ac9e78dc0c025b475160b512ca76a88393cf3f56d5"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/ntfy/v2.27.0-r3/ntfy_2.27.0-r3_x86.fpk",
-              "size": 31341817,
-              "sha256": "b810f908f58fc8ca6157ee51a15e9806cff332c453ecbdf23541d400eb4495dd"
             }
           }
         }
@@ -7262,6 +7262,21 @@
       "is_docker": true,
       "service_port": "8000",
       "releases": {
+        "3.3.1": {
+          "updated_at": "2026-10-13T08:07:20Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/paperless-ngx/v3.3.1/paperless-ngx_3.3.1_arm.fpk",
+              "size": 44459,
+              "sha256": "9359816d615b818c3d3c7b5fd6ec854759c89da2b571bd376f4d26d715a2602a"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/paperless-ngx/v3.3.1/paperless-ngx_3.3.1_x86.fpk",
+              "size": 44448,
+              "sha256": "88fa9dcb6c9083e543d827fbd5ce1d00c2c570c574f709f414cd1bc923e7a402"
+            }
+          }
+        },
         "3.3.0": {
           "updated_at": "2026-10-06T08:03:16Z",
           "packages": {
@@ -7289,21 +7304,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/paperless-ngx/v3.2.1/paperless-ngx_3.2.1_x86.fpk",
               "size": 44483,
               "sha256": "82f7f60e49a6bf5af7b37dec83b0c251b71cf1631e173ebd24a5e2c1cc83bce7"
-            }
-          }
-        },
-        "3.2.0": {
-          "updated_at": "2026-09-19T08:02:21Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/paperless-ngx/v3.2.0/paperless-ngx_3.2.0_arm.fpk",
-              "size": 44472,
-              "sha256": "526c7cc2352fa5e69b0cb56d1ca1036f2c9ebc14c3ae01f2c1090babbf4543ba"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/paperless-ngx/v3.2.0/paperless-ngx_3.2.0_x86.fpk",
-              "size": 44481,
-              "sha256": "5608905e19476678c07e25b8b05632219330caed611ffef5d90fdc0afd2fe791"
             }
           }
         }
@@ -8653,6 +8653,21 @@
       "is_docker": true,
       "service_port": "8002",
       "releases": {
+        "14.0.9": {
+          "updated_at": "2026-10-13T08:07:31Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/seafile/v14.0.9/seafile_14.0.9_arm.fpk",
+              "size": 59293,
+              "sha256": "5fda6ee189ec14c807400af47b275c7451bad8cb2ef6560918151fa36d8ecb1c"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/seafile/v14.0.9/seafile_14.0.9_x86.fpk",
+              "size": 59298,
+              "sha256": "3849d2ca486cb5cca2483a43c1e4032bece8f8f9d9ee692bd6adc0cb2c926055"
+            }
+          }
+        },
         "13.0.28": {
           "updated_at": "2026-09-19T08:02:25Z",
           "packages": {
@@ -8680,21 +8695,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/seafile/v13.0.25-r3/seafile_13.0.25-r3_x86.fpk",
               "size": 59251,
               "sha256": "f93cbda06edb72c54a30e64b0951ab654535f3c0a35534a6d071c7fa67674efb"
-            }
-          }
-        },
-        "13.0.24": {
-          "updated_at": "2026-07-07T06:49:58Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/seafile/v13.0.24/seafile_13.0.24_arm.fpk",
-              "size": 57539,
-              "sha256": "dae0043df567161eb93653342ee70e8e41473bad55ff17cc0ca581c80d73cd4d"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/seafile/v13.0.24/seafile_13.0.24_x86.fpk",
-              "size": 57543,
-              "sha256": "58c855855f3f6f6a0c1befef08e40646cf8792ebd81dd1d5762e1ff251023977"
             }
           }
         }
@@ -10206,6 +10206,21 @@
       "is_docker": true,
       "service_port": "5690",
       "releases": {
+        "2026.10.1": {
+          "updated_at": "2026-10-13T08:07:28Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/wizarr/v2026.10.1/wizarr_2026.10.1_arm.fpk",
+              "size": 68380,
+              "sha256": "3e7cae0e0b8e2969fa9f489c2ff1bae384d832be93deb52102f7f6a89a1f365d"
+            },
+            "x86": {
+              "download_url": "https://github.com/conversun/fnos-apps/releases/download/wizarr/v2026.10.1/wizarr_2026.10.1_x86.fpk",
+              "size": 68395,
+              "sha256": "c401c920ca520b3b5f0b855be83a165070cacc5b5107ade905972d278b66d961"
+            }
+          }
+        },
         "2026.10.0": {
           "updated_at": "2026-10-12T08:16:33Z",
           "packages": {
@@ -10233,21 +10248,6 @@
               "download_url": "https://github.com/conversun/fnos-apps/releases/download/wizarr/v2026.9.1/wizarr_2026.9.1_x86.fpk",
               "size": 68407,
               "sha256": "d89ea6bfda8bb2fc21b64fd2ff018dc069389666c31df9f86ec7cf05029640ef"
-            }
-          }
-        },
-        "2026.9.0": {
-          "updated_at": "2026-09-02T08:02:31Z",
-          "packages": {
-            "arm": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/wizarr/v2026.9.0/wizarr_2026.9.0_arm.fpk",
-              "size": 68406,
-              "sha256": "17a988c4f9af45498ffb6c828647a6d92e78489c3bdc9fe9914c1ab9a6049398"
-            },
-            "x86": {
-              "download_url": "https://github.com/conversun/fnos-apps/releases/download/wizarr/v2026.9.0/wizarr_2026.9.0_x86.fpk",
-              "size": 68408,
-              "sha256": "02307609eb4fe0c4067b40159fe856e741d17de0ba558ebb18992e1314b9a9d6"
             }
           }
         }
